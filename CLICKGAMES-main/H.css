@@ -1,0 +1,91 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#title {
+    text-align: center;
+    background: linear-gradient(120deg, #000000 0%, #434343 50%, #212121 100%);
+    padding: 20px;
+    color: white;
+}
+
+.hub {
+    background-color: orange; /* Fundo laranja para "HUB" */
+    color: black; /* Texto preto para "HUB" */
+    padding: 0 10px; /* Espaçamento interno para destacar o fundo */
+    border-radius: 3px; /* Opcional: arredondar os cantos */
+    font-weight: bold; /* Opcional: negrito para "HUB" */
+}
+
+
+body {
+    background-color: #2e2e2e; /* Preto */
+    color: #ffffff; /* Texto branco para contraste */
+    font-family: Arial, sans-serif; /* Fonte legível */
+}
+
+/* Estilo para os containers dos carrosséis */
+.carousel-container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Estilo para o carrossel */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 800px; /* Largura do carrossel aumentada */
+    margin: auto;
+}
+
+/* Estilo para o container dos slides */
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Estilo para cada item do carrossel */
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%; /* Ajusta a largura da imagem para preencher o carrossel */
+    height: 400px; /* Altura da imagem reduzida */
+    object-fit: cover; /* Mantém a proporção da imagem enquanto cobre o espaço */
+    display: block;
+    border-radius: 10px;
+}
+
+/* Estilo para os botões de controle */
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+.titles{
+   margin-left:370px;
+}

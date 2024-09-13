@@ -1,0 +1,104 @@
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    background: linear-gradient(120deg, #373f58 0%, #3e41bd 100%, #7082ca);
+    text-align: center;
+    height: 70px;
+    font-size: 20px ;
+    color: white;
+}
+
+.titles{
+    background: linear-gradient(120deg, #373f58 0%, #3e41bd 100%, #7082ca);
+   
+ 
+    text-align: center;
+    color: white;
+    width: 100%;
+    
+ 
+}
+
+#GIf{
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    margin-top:1px;
+    height: 5%;
+    margin-top: 20px;
+ 
+}
+
+#gif{
+    text-align: center;
+}
+
+body{
+    background-color: white ;
+}
+
+
+#jogos{
+    margin-top: 100px;
+    margin-left:  30%;
+    cursor: pointer;
+  
+}
+
+
+
+button :hover { /*zoom na imagem quando passa o mouse por cima*/
+    transform: scale(1.2);
+}
+
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre as imagens */
+    width: 100%; 
+
+    box-sizing: border-box;
+    margin-top: 10px; /* Espaçamento acima da seção */
+}
+
+.imagens img {
+    width: 100px; /* Define o mesmo tamanho para todas as imagens */
+    height: 100px; /* Define o mesmo tamanho para todas as imagens */
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+button {
+    border: none; 
+    background: transparent; /* Torna o fundo do botão transparente */
+    cursor: pointer; /* Mostra o cursor de pointer sobre os botões */
+}
+
+button:hover img {
+    transform: scale(1.2); /* Zoom nas imagens ao passar o mouse */
+}
+
+.Jogosdeação{
+    margin-top: 30px;
+}
+
+.JogosdeEstrategia{
+    margin-top: 30px;
+}
+
+.GIF {
+    width: 30%; 
+    height: 40%; 
+    text-align: center;
+}
+
+
